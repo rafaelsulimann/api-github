@@ -4,7 +4,7 @@ import { TokenProvider } from "./contexts/context-token";
 export default function App() {
   return (
     <TokenProvider>
-      <Outlet />;
+      <Outlet />
     </TokenProvider>
   );
 }
